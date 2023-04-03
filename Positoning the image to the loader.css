@@ -1,0 +1,14 @@
+.image-skeleton-holder {
+  /* ... */
+  position: relative;
+}
+
+.image-skeleton-holder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* scales the image to fill the container while preserving aspect ratio */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
